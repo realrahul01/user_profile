@@ -1,0 +1,10 @@
+.NavLink_style{
+    color: #fff;
+    text-decoration: none;
+}
+.NavLink_style:hover{
+    text-decoration: underline;
+}
+.activeLink{
+    color: orange;
+}

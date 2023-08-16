@@ -1,0 +1,75 @@
+/* body{
+    background-color: #042743;
+} */
+.userDetails input{
+    display: block;
+    width: 260px;
+    /* border-radius: 4px;  */
+    padding: 3px;
+    outline: none;
+}
+.userDetails{
+    margin-top: 5px;
+}
+.container{
+    background-color: #fff;
+    display: flex;
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    text-align: start;
+    min-height: 400px;
+    border: 2px solid #042743;
+}
+.imageSection{
+    background: url(./../images/rahul.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 60vh;
+    margin: 10px;
+}
+.userDetails button{
+    width: 260px;
+    margin-top: 9px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 3px;
+    background-color: blue;
+    color: #fff;
+}
+.userDetails label{
+    color: rgb(87, 75, 75);
+    font-weight: 600;
+}
+.userDetails button:hover{
+    background-color: green;
+}
+.inputSection{
+    margin-top: -15px;    
+    overflow: none;
+}
+.inputError{
+    color: red;
+    font-weight: 700;
+}
+.successMsg{
+    color: green;
+    font-weight: 700;
+    text-align: start;
+    font-style: italic;
+}
+.isLoader{
+    text-align: center;
+    margin-top: 10px;
+}
+.errorMsg{
+    color: red;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+.countRender{
+    margin-top: 10px;
+}

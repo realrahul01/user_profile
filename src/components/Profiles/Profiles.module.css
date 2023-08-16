@@ -1,0 +1,13 @@
+.profileContainer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.profileBtn{
+    margin-top: 20px;
+    background: red;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
+}

@@ -1,0 +1,31 @@
+.loginDetails input{
+    display: block;
+    padding: 4px;
+    width: 100%;
+    /* border-radius: 4px; */
+}
+.loginContainer{
+    border: 2px solid black;
+    position: absolute;
+    left: 500px;
+    padding: 20px;
+    width: 25%;
+    background-color: #fff;
+    color: rgb(32, 31, 31);
+    text-align: start;
+}
+.loginDetails{
+    margin-top: 15px;
+}
+.loginDetails button{
+    width: 100%;
+    padding: 4px;
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    border-radius: 4px;
+}
+.showErrorMsg{
+    color: red;
+    font-weight: 700;
+}
